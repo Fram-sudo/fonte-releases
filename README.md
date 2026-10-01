@@ -15,6 +15,16 @@
 
 Ce dépôt sert uniquement à télécharger l'application : chaque version de Fonte y est publiée automatiquement.
 
+### En vidéo
+
+**Bande-annonce** (37 s)
+
+https://github.com/user-attachments/assets/4ce30139-c778-41d4-b238-d02ff68e57fe
+
+**Présentation complète** (1 min 29)
+
+https://github.com/user-attachments/assets/2ce205f0-ce30-40e0-8aca-b01c09c481b3
+
 ### Ce que fait Fonte
 
 - Séances et routines (dossiers, supersets), saisie rapide des séries, minuteur de repos qui continue dans les notifications.
@@ -33,7 +43,9 @@ Ce dépôt sert uniquement à télécharger l'application : chaque version de Fo
 
 ### Mettre à jour
 
-Télécharge la nouvelle version et installe-la par-dessus l'ancienne : tes séances, routines et réglages sont conservés. Ne désinstalle pas l'application avant, cela effacerait tes données (sauf si tu as une sauvegarde automatique, dans Réglages > Données).
+Fonte vérifie elle-même s'il existe une nouvelle version (à l'ouverture, au plus une fois par jour, avec internet) et te la propose, avec ses nouveautés : touche **Mettre à jour**, l'app la télécharge puis Android demande de confirmer l'installation. La première fois, Android demande aussi d'autoriser Fonte à installer des applications. Tes séances, routines et réglages sont conservés.
+
+Tu peux aussi vérifier à la main (Réglages > À propos > Mises à jour), désactiver la vérification automatique, ou télécharger la nouvelle version ici et l'installer par-dessus l'ancienne. Ne désinstalle pas l'application avant, cela effacerait tes données (sauf si tu as une sauvegarde automatique, dans Réglages > Données).
 
 ### Si l'installation ne marche pas
 
@@ -43,7 +55,7 @@ Télécharge la nouvelle version et installe-la par-dessus l'ancienne : tes séa
 
 ### Confidentialité
 
-Fonte ne collecte rien et n'envoie rien : pas de compte, pas de serveur, pas de publicité, pas de traceur. Tes données restent sur ton téléphone et dans le dossier de sauvegarde que tu choisis. Internet ne sert qu'à afficher les images des exercices, que tu peux aussi télécharger une fois pour toutes.
+Fonte ne collecte rien et n'envoie rien : pas de compte, pas de serveur, pas de publicité, pas de traceur. Tes données restent sur ton téléphone et dans le dossier de sauvegarde que tu choisis. Internet ne sert qu'à deux choses : afficher les images des exercices (que tu peux aussi télécharger une fois pour toutes) et vérifier s'il existe une nouvelle version, en lisant la page des versions de ce dépôt. Cette vérification peut être désactivée dans Réglages > À propos.
 
 ### iPhone
 
@@ -58,6 +70,16 @@ Framana.
 ## English
 
 This repository is only for downloading the app: every Fonte version is published here automatically.
+
+### Watch
+
+**Trailer** (37 s)
+
+https://github.com/user-attachments/assets/e3c287ea-5432-4901-a3e6-24cbe677bf81
+
+**Full walkthrough** (1 min 29)
+
+https://github.com/user-attachments/assets/15d94cd5-b75b-4f93-9420-5d8db5de2cb3
 
 ### What Fonte does
 
@@ -77,7 +99,9 @@ This repository is only for downloading the app: every Fonte version is publishe
 
 ### Update
 
-Download the new version and install it over the old one: your workouts, routines and settings are kept. Do not uninstall the app first, that would erase your data (unless you have an automatic backup, in Settings > Data).
+Fonte checks for a new version by itself (when it opens, at most once a day, when online) and offers it to you with what's new: tap **Update**, the app downloads it, then Android asks you to confirm the install. The first time, Android also asks you to allow Fonte to install apps. Your workouts, routines and settings are kept.
+
+You can also check by hand (Settings > About > Updates), turn off the automatic check, or download the new version here and install it over the old one. Do not uninstall the app first, that would erase your data (unless you have an automatic backup, in Settings > Data).
 
 ### If the install fails
 
@@ -87,7 +111,7 @@ Download the new version and install it over the old one: your workouts, routine
 
 ### Privacy
 
-Fonte collects nothing and sends nothing: no account, no server, no ads, no trackers. Your data stays on your phone and in the backup folder you choose. The internet is only used to show exercise images, which you can also download once and for all.
+Fonte collects nothing and sends nothing: no account, no server, no ads, no trackers. Your data stays on your phone and in the backup folder you choose. The internet is only used for two things: showing exercise images (which you can also download once and for all) and checking for a new version, by reading this repository's releases page. This check can be turned off in Settings > About.
 
 ### iPhone
 
