@@ -5,7 +5,7 @@
 <p align="center">Suivi de musculation pour Android. Gratuit, sans compte, sans pub, hors ligne.<br>
 <i>Workout tracker for Android. Free, no account, no ads, works offline.</i></p>
 
-<p align="center"><a href="https://github.com/Fram-sudo/fonte-releases/releases/latest"><b>Télécharger la dernière version / Download the latest version</b></a></p>
+<p align="center"><a href="https://github.com/Fram-sudo/fonte-releases/releases/latest"><b>Android : télécharger / download</b></a> · <a href="https://fram-sudo.github.io/fonte-releases/"><b>iPhone : web app</b></a></p>
 
 [Français](#français) · [English](#english)
 
@@ -59,7 +59,34 @@ Fonte ne collecte rien et n'envoie rien : pas de compte, pas de serveur, pas de 
 
 ### iPhone
 
-Pas de version iOS pour l'instant.
+Fonte existe aussi en **web app** pour iPhone : même DA, mêmes écrans, et tes données restent dans le téléphone (pas de compte, pas de serveur). Adresse : **https://fram-sudo.github.io/fonte-releases/**
+
+**Installer** (iPhone avec iOS 16.4 ou plus récent) :
+
+1. Ouvre l'adresse dans **Safari**.
+2. Touche **Partager** (le carré avec une flèche, parfois sous **···**), puis **Sur l'écran d'accueil**, puis **Ajouter**.
+3. Ouvre ensuite Fonte **toujours depuis son icône** : elle s'affiche en plein écran et marche hors ligne. Un tuto se lance au premier démarrage.
+
+**Important** :
+
+- Tes données sont dans l'app, sur ton téléphone. **Supprimer l'icône efface tes données** : exporte une sauvegarde de temps en temps (Réglages > Sauvegarde, import et export > Sauvegarder maintenant, puis Enregistrer dans Fichiers ou iCloud Drive). L'app te le rappelle chaque semaine.
+- Dans un simple onglet de Safari (sans l'installer), iOS peut effacer les données au bout de quelques jours sans visite : installe-la.
+- Les mises à jour arrivent toutes seules à l'ouverture (jamais pendant une séance).
+- Une sauvegarde passe de l'app Android à la web app et inversement : changer de téléphone ne fait rien perdre.
+
+**Ce qui change par rapport à l'app Android, et pourquoi** : Apple limite ce qu'une web app peut faire sur iPhone.
+
+| Sur Android | Sur iPhone (web app) | Pourquoi |
+|---|---|---|
+| Fin de repos : son et vibration, même app fermée | Le son se joue seulement si Fonte est à l'écran (l'écran reste allumé pendant la séance), sans vibration | iOS ne laisse pas une web app faire vibrer le téléphone, ni sonner ou tourner en arrière-plan |
+| Notification de séance et minuteur sur l'écran verrouillé | Pas de notification ; au retour dans l'app, le temps restant est à jour | Une notification programmée demanderait un serveur, et Fonte n'en a pas |
+| Notification du bilan mensuel | La carte du bilan sur l'Accueil seulement | Même raison |
+| Sauvegarde automatique dans un dossier | Export manuel vers Fichiers ou iCloud, avec un rappel chaque semaine | Une web app ne peut pas écrire dans un dossier du téléphone |
+| Export Obsidian dans un dossier | Fichiers Markdown à enregistrer où tu veux | Même raison |
+
+Le détail est aussi dans l'app : Réglages > À propos > Version web : différences.
+
+**Pour l'instant** : séances, routines et dossiers, exercices et photos, historique, sauvegarde et import (Hevy, Fonte). Les stats, le niveau et les rangs, les quêtes, les boss, les bilans mensuels et les cartes d'amis arrivent dans une prochaine version.
 
 ### Développeur
 
@@ -115,7 +142,34 @@ Fonte collects nothing and sends nothing: no account, no server, no ads, no trac
 
 ### iPhone
 
-No iOS version for now.
+Fonte also exists as a **web app** for iPhone: same look, same screens, and your data stays on your phone (no account, no server). Address: **https://fram-sudo.github.io/fonte-releases/**
+
+**Install** (iPhone with iOS 16.4 or newer):
+
+1. Open the address in **Safari**.
+2. Tap **Share** (the square with an arrow, sometimes under **···**), then **Add to Home Screen**, then **Add**.
+3. Then **always open Fonte from its icon**: it runs full screen and works offline. A tutorial starts on first launch.
+
+**Important**:
+
+- Your data lives in the app, on your phone. **Deleting the icon erases your data**: export a backup now and then (Settings > Backup, import and export > Back up now, then Save to Files or iCloud Drive). The app reminds you every week.
+- In a plain Safari tab (not installed), iOS may erase the data after a few days without a visit: install it.
+- Updates arrive by themselves when you open the app (never during a workout).
+- A backup moves from the Android app to the web app and back: switching phones loses nothing.
+
+**What differs from the Android app, and why**: Apple limits what a web app can do on iPhone.
+
+| On Android | On iPhone (web app) | Why |
+|---|---|---|
+| End of rest: sound and vibration, even with the app closed | The sound only plays while Fonte is on screen (the screen stays on during a workout), no vibration | iOS does not let a web app vibrate the phone, nor ring or run in the background |
+| Workout notification and timer on the lock screen | No notification; back in the app, the remaining time is correct | A scheduled notification would need a server, and Fonte has none |
+| Monthly report notification | Only the report card on Home | Same reason |
+| Automatic backup to a folder | Manual export to Files or iCloud, with a weekly reminder | A web app cannot write to a folder on the phone |
+| Obsidian export to a folder | Markdown files to save wherever you want | Same reason |
+
+The details are also in the app: Settings > About > Web version: differences.
+
+**For now**: workouts, routines and folders, exercises and photos, history, backup and import (Hevy, Fonte). Stats, level and ranks, quests, bosses, monthly reports and friend cards arrive in a coming version.
 
 ### Developer
 
