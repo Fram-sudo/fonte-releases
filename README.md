@@ -86,7 +86,7 @@ Fonte existe aussi en **web app** pour iPhone : même DA, mêmes écrans, et tes
 
 Le détail est aussi dans l'app : Réglages > À propos > Version web : différences.
 
-**Pour l'instant** : séances, routines et dossiers, exercices et photos, historique, sauvegarde et import (Hevy, Fonte). Les stats, le niveau et les rangs, les quêtes, les boss, les bilans mensuels et les cartes d'amis arrivent dans une prochaine version.
+**Tout y est** : séances, routines et dossiers, exercices et photos, historique, stats, niveau et rangs, quêtes, boss, bilans mensuels, cartes d'amis (compatibles avec l'app Android), sauvegarde et import (Hevy, Fonte).
 
 ### Développeur
 
@@ -169,7 +169,7 @@ Fonte also exists as a **web app** for iPhone: same look, same screens, and your
 
 The details are also in the app: Settings > About > Web version: differences.
 
-**For now**: workouts, routines and folders, exercises and photos, history, backup and import (Hevy, Fonte). Stats, level and ranks, quests, bosses, monthly reports and friend cards arrive in a coming version.
+**Everything is there**: workouts, routines and folders, exercises and photos, history, stats, level and ranks, quests, bosses, monthly reports, friend cards (compatible with the Android app), backup and import (Hevy, Fonte).
 
 ### Developer
 
