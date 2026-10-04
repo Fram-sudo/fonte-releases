@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Fonte</title>
+    <meta name="description" content="Suivi de musculation : séances, routines, stats et progression. Hors ligne, sans compte." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Fonte" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#F4F2EE" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131211" media="(prefers-color-scheme: dark)" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="preload" href="fonts/roboto.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      // Thème appliqué avant l'affichage (pas d'éclair blanc en mode sombre).
+      (function () {
+        var mode = 'SYSTEM';
+        try { mode = localStorage.getItem('fonte.theme_mode') || 'SYSTEM'; } catch (e) {}
+        var dark = mode === 'DARK' || (mode !== 'LIGHT' && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-aUX4zfbP.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C3mko9XS.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

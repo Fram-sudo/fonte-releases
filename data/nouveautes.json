@@ -1,0 +1,60 @@
+{
+  "versionCode": 17,
+  "versionName": "1.0.17",
+  "notes": {
+    "fr": [
+      "Corrections et petites améliorations."
+    ],
+    "en": [
+      "Fixes and small improvements."
+    ]
+  },
+  "history": [
+    {
+      "versionCode": 16,
+      "versionName": "1.0.16",
+      "notes": {
+        "fr": [
+          "Fonte arrive sur iPhone : une web app à installer depuis Safari, avec la même DA. Lien sur la page de téléchargement.",
+          "Tes sauvegardes passent d'Android à iPhone et inversement.",
+          "Fiche d'exercice : le titre de chaque mois s'affiche correctement dans l'historique.",
+          "Android : pendant une séance, la durée et le minuteur restent visibles app fermée (barre d'état, écran verrouillé), et le son de fin de repos passe dans les écouteurs même app fermée.",
+          "Android : la liste des exercices s'affiche du premier coup quand tu en ajoutes à une routine ou à une séance.",
+          "Filtre Muscle rangé par groupe, avec les muscles précis visibles directement.",
+          "Android : nouvelle fenêtre de fin de séance, comme dans la pub, avec ses animations."
+        ],
+        "en": [
+          "Fonte comes to iPhone: a web app to install from Safari, with the same look. Link on the download page.",
+          "Your backups move from Android to iPhone and back.",
+          "Exercise page: each month title now shows correctly in the history.",
+          "Android: during a workout, the duration and the timer stay visible with the app closed (status bar, lock screen), and the rest sound plays in your earphones even with the app closed.",
+          "Android: the exercise list shows up the first time when you add exercises to a routine or a workout.",
+          "Muscle filter grouped by body part, with specific muscles shown right away.",
+          "Android: new end-of-workout window, like in the promo video, with its animations."
+        ]
+      }
+    },
+    {
+      "versionCode": 15,
+      "versionName": "1.0.15",
+      "notes": {
+        "fr": [
+          "Mises à jour dans l'app : Fonte te prévient quand une nouvelle version sort, la télécharge et l'installe, sans perdre tes données.",
+          "Nouveautés : ce qui change à chaque version, dans Réglages > À propos.",
+          "Bilan mensuel : séances, records, muscles et XP du mois écoulé, à partager en image.",
+          "Graphiques de progression plus doux et plus lisibles.",
+          "Fiche d'exercice repensée : progression, historique et consignes en onglets.",
+          "Montée de rang : une vraie cérémonie, avec vibration."
+        ],
+        "en": [
+          "In-app updates: Fonte tells you when a new version is out, downloads it and installs it, without losing your data.",
+          "What's new: what changes in each version, in Settings > About.",
+          "Monthly report: last month's workouts, records, muscles and XP, to share as an image.",
+          "Smoother, easier to read progress charts.",
+          "Redesigned exercise page: progress, history and instructions in tabs.",
+          "Rank up: a real ceremony, with vibration."
+        ]
+      }
+    }
+  ]
+}
