@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fram-sudo.github.io/fonte-releases/sitemap.xml

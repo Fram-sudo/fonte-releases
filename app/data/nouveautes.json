@@ -1,0 +1,110 @@
+{
+  "versionCode": 20,
+  "versionName": "1.0.20",
+  "notes": {
+    "fr": [
+      "Les 20 emblèmes de rang sont les vrais dessins de Bamana : nets à toutes les tailles, lettres bien centrées.",
+      "Montée de rang plus accessible : Monarque en 3 ans environ à 4 séances par semaine, au lieu de 16. Ton rang est recalculé à l'ouverture.",
+      "Barre d'onglets plus grande : elle prend toute la largeur, avec des icônes plus grandes."
+    ],
+    "en": [
+      "The 20 rank emblems are Bamana's real drawings: sharp at any size, letters properly centered.",
+      "More accessible rank progression: Monarch in about 3 years at 4 workouts a week, instead of 16. Your rank is recalculated when you open the app.",
+      "Bigger tab bar: full width, with larger icons."
+    ]
+  },
+  "history": [
+    {
+      "versionCode": 20,
+      "versionName": "1.0.20",
+      "notes": {
+        "fr": [
+          "Les 20 emblèmes de rang sont les vrais dessins de Bamana : nets à toutes les tailles, lettres bien centrées.",
+          "Montée de rang plus accessible : Monarque en 3 ans environ à 4 séances par semaine, au lieu de 16. Ton rang est recalculé à l'ouverture.",
+          "Barre d'onglets plus grande : elle prend toute la largeur, avec des icônes plus grandes."
+        ],
+        "en": [
+          "The 20 rank emblems are Bamana's real drawings: sharp at any size, letters properly centered.",
+          "More accessible rank progression: Monarch in about 3 years at 4 workouts a week, instead of 16. Your rank is recalculated when you open the app.",
+          "Bigger tab bar: full width, with larger icons."
+        ]
+      }
+    },
+    {
+      "versionCode": 19,
+      "versionName": "1.0.19",
+      "notes": {
+        "fr": [
+          "Nouveau design de toute l'app, dessiné par Bamana, sur Android et sur iPhone : couleurs, polices, grands titres, barre d'onglets flottante, filtres en panneaux.",
+          "La liste s'efface en fondu avant la barre d'onglets : plus rien ne passe derrière.",
+          "L'accueil dit « Bonjour » en journée et « Bonsoir » à partir de 18 h, à l'heure de ton téléphone.",
+          "20 rangs au lieu de 8 : chaque lettre en trois sous-rangs (E-, E, E+…), puis Nation et Monarque, avec de nouveaux emblèmes.",
+          "Fenêtre de fin de séance façon Solo Leveling, avec un « ding » à activer dans Réglages > Séance.",
+          "Séance : touche le chrono pour corriger la durée, « Changer de routine » garde le chrono, et la miniature d'un exercice montre ses images et sa technique.",
+          "Exercices, routines et dossiers se rangent en les faisant glisser.",
+          "Android : le minuteur de repos s'affiche en grand dans la notification, avec des boutons orange.",
+          "Nouveau site, en français et en anglais : fram-sudo.github.io/fonte-releases. Sur iPhone, la web app passe toute seule à sa nouvelle adresse, sans rien perdre.",
+          "Bilan du mois en cours : la série de semaines est juste."
+        ],
+        "en": [
+          "New design for the whole app, drawn by Bamana, on Android and iPhone: colors, fonts, large titles, floating tab bar, filter panels.",
+          "Lists fade out before the tab bar: nothing shows behind it anymore.",
+          "The home greeting follows the time of day on your phone.",
+          "20 ranks instead of 8: each letter in three sub-ranks (E-, E, E+…), then National and Monarch, with new emblems.",
+          "Solo Leveling style end-of-workout window, with a \"ding\" you can turn on in Settings > Workout.",
+          "Workout: tap the timer to fix the duration, \"Change routine\" keeps the timer, and an exercise thumbnail shows its images and technique.",
+          "Exercises, routines and folders can be reordered by dragging them.",
+          "Android: the rest timer shows big in the notification, with orange buttons.",
+          "New website, in English and French: fram-sudo.github.io/fonte-releases/en/. On iPhone, the web app moves to its new address by itself, without losing anything.",
+          "Current month report: the week streak is right."
+        ]
+      }
+    },
+    {
+      "versionCode": 16,
+      "versionName": "1.0.16",
+      "notes": {
+        "fr": [
+          "Fonte arrive sur iPhone : une web app à installer depuis Safari, avec la même DA. Lien sur la page de téléchargement.",
+          "Tes sauvegardes passent d'Android à iPhone et inversement.",
+          "Fiche d'exercice : le titre de chaque mois s'affiche correctement dans l'historique.",
+          "Android : pendant une séance, la durée et le minuteur restent visibles app fermée (barre d'état, écran verrouillé), et le son de fin de repos passe dans les écouteurs même app fermée.",
+          "Android : la liste des exercices s'affiche du premier coup quand tu en ajoutes à une routine ou à une séance.",
+          "Filtre Muscle rangé par groupe, avec les muscles précis visibles directement.",
+          "Android : nouvelle fenêtre de fin de séance, comme dans la pub, avec ses animations."
+        ],
+        "en": [
+          "Fonte comes to iPhone: a web app to install from Safari, with the same look. Link on the download page.",
+          "Your backups move from Android to iPhone and back.",
+          "Exercise page: each month title now shows correctly in the history.",
+          "Android: during a workout, the duration and the timer stay visible with the app closed (status bar, lock screen), and the rest sound plays in your earphones even with the app closed.",
+          "Android: the exercise list shows up the first time when you add exercises to a routine or a workout.",
+          "Muscle filter grouped by body part, with specific muscles shown right away.",
+          "Android: new end-of-workout window, like in the promo video, with its animations."
+        ]
+      }
+    },
+    {
+      "versionCode": 15,
+      "versionName": "1.0.15",
+      "notes": {
+        "fr": [
+          "Mises à jour dans l'app : Fonte te prévient quand une nouvelle version sort, la télécharge et l'installe, sans perdre tes données.",
+          "Nouveautés : ce qui change à chaque version, dans Réglages > À propos.",
+          "Bilan mensuel : séances, records, muscles et XP du mois écoulé, à partager en image.",
+          "Graphiques de progression plus doux et plus lisibles.",
+          "Fiche d'exercice repensée : progression, historique et consignes en onglets.",
+          "Montée de rang : une vraie cérémonie, avec vibration."
+        ],
+        "en": [
+          "In-app updates: Fonte tells you when a new version is out, downloads it and installs it, without losing your data.",
+          "What's new: what changes in each version, in Settings > About.",
+          "Monthly report: last month's workouts, records, muscles and XP, to share as an image.",
+          "Smoother, easier to read progress charts.",
+          "Redesigned exercise page: progress, history and instructions in tabs.",
+          "Rank up: a real ceremony, with vibration."
+        ]
+      }
+    }
+  ]
+}

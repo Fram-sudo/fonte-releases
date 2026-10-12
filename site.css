@@ -1,0 +1,127 @@
+/* Page d'accueil de Fonte (GitHub Pages) : même style que l'app (DESIGN_SPEC), sans framework. */
+@font-face { font-family: 'Inter'; src: url('app/fonts/inter_regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('app/fonts/inter_semibold.woff2') format('woff2'); font-weight: 600; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('app/fonts/inter_bold.woff2') format('woff2'); font-weight: 700; font-display: swap; }
+@font-face { font-family: 'Inter'; src: url('app/fonts/inter_extrabold.woff2') format('woff2'); font-weight: 800; font-display: swap; }
+@font-face { font-family: 'Hanken Grotesk'; src: url('app/fonts/hanken_regular.woff2') format('woff2'); font-weight: 400; font-display: swap; }
+
+:root {
+  --bg: #f3f2ef;
+  --surface: #ffffff;
+  --surface-2: #eeece8;
+  --border: #e3e1dc;
+  --text: #121315;
+  --text-2: #5e636b;
+  --accent: #c9561c;
+  --filled: #eb7034;
+  --on-filled: #121315;
+  --accent-container: #fbe3d5;
+  --on-accent-container: #a8440f;
+  --glow: rgba(235, 112, 52, 0.35);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121315;
+    --surface: #1b1c20;
+    --surface-2: #26272d;
+    --border: #2c2d33;
+    --text: #f0ebe3;
+    --text-2: #8b909a;
+    --accent: #ff7a38;
+    --accent-container: #4c3024;
+    --on-accent-container: #ff7a38;
+    --glow: rgba(255, 122, 56, 0.4);
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 400 16px/1.5 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+img { max-width: 100%; height: auto; }
+.wrap { width: 100%; max-width: 1040px; margin-inline: auto; padding-inline: 20px; }
+.small { font-size: 14px; color: var(--text-2); }
+
+
+.top { display: flex; align-items: center; justify-content: space-between; padding-top: max(20px, env(safe-area-inset-top, 0px)); padding-bottom: 8px; }
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 26px; letter-spacing: -0.01em; }
+.brand img { width: 44px; height: 44px; border-radius: 12px; }
+/* Langue : une page par langue ; le bouton mène à l'autre (son nom écrit dans sa langue). */
+.lang-switch { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 16px 8px 12px; border-radius: 999px; background: var(--surface); color: var(--text); font-weight: 600; font-size: 14px; text-decoration: none; }
+.lang-switch svg { width: 18px; height: 18px; fill: var(--accent); flex: none; }
+.lang-switch:hover { background: var(--surface-2); }
+.lang-banner { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: max(10px, env(safe-area-inset-top, 0px)); }
+.lang-banner[hidden] { display: none; }
+.lang-banner a { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 8px 16px 8px 12px; border-radius: 999px; background: var(--accent-container); color: var(--on-accent-container); font-weight: 600; font-size: 14px; text-decoration: none; }
+.lang-banner a svg { width: 18px; height: 18px; fill: currentColor; flex: none; }
+.lang-banner button { width: 40px; height: 40px; flex: none; border: 0; border-radius: 999px; background: var(--surface); color: var(--text-2); font: 400 22px/1 'Inter', sans-serif; cursor: pointer; }
+.lang-banner:not([hidden]) + .top { padding-top: 12px; }
+
+.hero { padding-block: 28px 8px; }
+.hero h1 { font-weight: 800; font-size: clamp(34px, 7vw, 58px); line-height: 1.05; letter-spacing: -0.02em; margin: 0 0 16px; max-width: 16ch; text-wrap: balance; }
+.hero h1 em { font-style: normal; color: var(--accent); }
+.lead { font-size: 17px; color: var(--text-2); max-width: 38em; margin: 0; }
+
+.card { background: var(--surface); border-radius: 30px; padding: 24px; }
+.get { display: grid; gap: 14px; padding-block: 28px 8px; }
+.platform { display: flex; flex-direction: column; gap: 16px; border: 2px solid var(--accent-container); }
+.platform-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.tag { background: var(--accent-container); color: var(--on-accent-container); font-weight: 800; font-size: 14px; border-radius: 17px; padding: 4px 12px; }
+.cta {
+  display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 64px; padding: 12px 24px;
+  border-radius: 999px; background: var(--filled); color: var(--on-filled); font-weight: 700; font-size: 17px; text-decoration: none;
+  box-shadow: 0 0 22px var(--glow);
+}
+.cta svg { width: 22px; height: 22px; fill: currentColor; flex: none; }
+.cta:active { transform: scale(0.98); }
+.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; display: grid; gap: 10px; }
+.steps li { counter-increment: s; position: relative; padding-left: 40px; min-height: 28px; font-size: 15px; padding-top: 3px; }
+.steps li::before {
+  content: counter(s); position: absolute; left: 0; top: 0; width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--filled); color: var(--on-filled); font-weight: 800; font-size: 14px;
+}
+.steps b { font-weight: 600; }
+.platform > .small { margin: 0; }
+.qr { display: flex; align-items: center; gap: 20px; }
+.qr img { width: 148px; height: 148px; border-radius: 16px; background: #fff; padding: 8px; flex: none; }
+.qr-title { font-weight: 700; font-size: 18px; margin: 0 0 6px; }
+.qr .small { margin: 0; }
+.other { margin: 0; text-align: center; }
+
+/* Téléphone : seulement la bonne version (« Voir aussi » affiche l'autre). Ordinateur : les deux et le QR code. */
+body[data-platform='android']:not(.all) .platform.iphone,
+body[data-platform='iphone']:not(.all) .platform.android,
+body[data-platform='android'] .qr, body[data-platform='iphone'] .qr,
+body[data-platform='desktop'] .other, body.all .other { display: none; }
+@media (min-width: 860px) {
+  body[data-platform='desktop'] .get { grid-template-columns: 1fr 1fr; }
+  body[data-platform='desktop'] .qr { grid-column: 1 / -1; justify-content: center; }
+}
+
+.shots { display: grid; grid-auto-flow: column; grid-auto-columns: min(62vw, 240px); gap: 14px; overflow-x: auto; padding-block: 32px 8px; scroll-snap-type: x mandatory; scrollbar-width: none; }
+.shots::-webkit-scrollbar { display: none; }
+.shots figure { margin: 0; scroll-snap-align: start; }
+.shots img { display: block; width: 100%; border-radius: 28px; border: 1px solid var(--border); background: #121315; }
+.shots figcaption { text-align: center; color: var(--text-2); font-size: 14px; margin-top: 8px; }
+@media (min-width: 860px) { .shots { grid-auto-flow: row; grid-template-columns: repeat(4, 1fr); overflow: visible; } }
+
+.features { padding-block: 32px 8px; }
+.features h2 { font-weight: 800; font-size: 28px; letter-spacing: -0.01em; margin: 0 0 16px; }
+.grid { display: grid; gap: 12px; }
+@media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 960px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+.feat { border-radius: 22px; padding: 20px; }
+.feat h3 { font-weight: 700; font-size: 18px; margin: 0 0 6px; }
+.feat p { margin: 0; color: var(--text-2); font-size: 15px; }
+
+.foot { padding-block: 32px max(32px, env(safe-area-inset-bottom, 0px)); text-align: center; }
+.foot p { margin: 6px 0; }
