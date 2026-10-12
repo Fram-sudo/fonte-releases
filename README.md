@@ -5,7 +5,7 @@
 <p align="center">Suivi de musculation pour Android et iPhone. Gratuit, sans compte, sans pub, hors ligne.<br>
 <i>Workout tracker for Android and iPhone. Free, no account, no ads, works offline.</i></p>
 
-<p align="center"><a href="https://fram-sudo.github.io/fonte-releases/"><b>Site : fram-sudo.github.io/fonte-releases</b></a></p>
+<p align="center"><a href="https://fram-sudo.github.io/fonte-releases/"><b>Site : fram-sudo.github.io/fonte-releases</b></a> · <a href="https://fram-sudo.github.io/fonte-releases/en/"><b>Website in English</b></a></p>
 
 <p align="center"><a href="https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk"><b>Android : Fonte.apk</b></a> · <a href="https://fram-sudo.github.io/fonte-releases/app/"><b>iPhone : web app</b></a></p>
 
@@ -92,9 +92,9 @@ Le détail est aussi dans l'app : Réglages > À propos > Version web : différe
 
 **Tout y est** : séances, routines et dossiers, exercices et photos, historique, stats, niveau et rangs, quêtes, boss, bilans mensuels, cartes d'amis (compatibles avec l'app Android), sauvegarde et import (Hevy, Fonte).
 
-### Développeur
+### Crédits
 
-Framana.
+Développeur : Framana. Design de l'interface : Bamana.
 
 ---
 
@@ -123,7 +123,7 @@ https://github.com/user-attachments/assets/15d94cd5-b75b-4f93-9420-5d8db5de2cb3
 
 ### Install
 
-1. On your Android phone (8.0 or newer), tap [Fonte.apk](https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk) (always the latest version, also on the [website](https://fram-sudo.github.io/fonte-releases/)).
+1. On your Android phone (8.0 or newer), tap [Fonte.apk](https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk) (always the latest version, also on the [website](https://fram-sudo.github.io/fonte-releases/en/)).
 2. Open the downloaded file.
 3. Android asks you to allow your browser (or file manager) to install unknown apps: turn it on, go back, then tap **Install**.
 4. If Google Play Protect shows a warning, choose **Install anyway** (sometimes after **More details**). This is normal for an app that is not on the Play Store.
@@ -146,7 +146,7 @@ Fonte collects nothing and sends nothing: no account, no server, no ads, no trac
 
 ### iPhone
 
-Fonte also exists as a **web app** for iPhone: same look, same screens, and your data stays on your phone (no account, no server). Address: **https://fram-sudo.github.io/fonte-releases/app/** (or the [website](https://fram-sudo.github.io/fonte-releases/), which leads there)
+Fonte also exists as a **web app** for iPhone: same look, same screens, and your data stays on your phone (no account, no server). Address: **https://fram-sudo.github.io/fonte-releases/app/** (or the [website](https://fram-sudo.github.io/fonte-releases/en/), which leads there)
 
 **Install** (iPhone with iOS 16.4 or newer):
 
@@ -175,6 +175,6 @@ The details are also in the app: Settings > About > Web version: differences.
 
 **Everything is there**: workouts, routines and folders, exercises and photos, history, stats, level and ranks, quests, bosses, monthly reports, friend cards (compatible with the Android app), backup and import (Hevy, Fonte).
 
-### Developer
+### Credits
 
-Framana.
+Developer: Framana. Interface design: Bamana.
