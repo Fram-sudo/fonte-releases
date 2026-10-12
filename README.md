@@ -2,10 +2,14 @@
 
 <h1 align="center">Fonte</h1>
 
-<p align="center">Suivi de musculation pour Android. Gratuit, sans compte, sans pub, hors ligne.<br>
-<i>Workout tracker for Android. Free, no account, no ads, works offline.</i></p>
+<p align="center">Suivi de musculation pour Android et iPhone. Gratuit, sans compte, sans pub, hors ligne.<br>
+<i>Workout tracker for Android and iPhone. Free, no account, no ads, works offline.</i></p>
 
-<p align="center"><a href="https://github.com/Fram-sudo/fonte-releases/releases/latest"><b>Android : télécharger / download</b></a> · <a href="https://fram-sudo.github.io/fonte-releases/"><b>iPhone : web app</b></a></p>
+<p align="center"><a href="https://fram-sudo.github.io/fonte-releases/"><b>Site : fram-sudo.github.io/fonte-releases</b></a></p>
+
+<p align="center"><a href="https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk"><b>Android : Fonte.apk</b></a> · <a href="https://fram-sudo.github.io/fonte-releases/app/"><b>iPhone : web app</b></a></p>
+
+<p align="center"><img src="affiche/qr-code.svg" width="140" alt="QR code vers le site de Fonte"><br><sub>Scanne avec ton téléphone / Scan with your phone · <a href="affiche/affiche-A5.pdf">affiche A5 à imprimer / A5 poster</a></sub></p>
 
 [Français](#français) · [English](#english)
 
@@ -27,17 +31,17 @@ https://github.com/user-attachments/assets/2ce205f0-ce30-40e0-8aca-b01c09c481b3
 
 ### Ce que fait Fonte
 
-- Séances et routines (dossiers, supersets), saisie rapide des séries, minuteur de repos qui continue dans les notifications.
+- Séances et routines (dossiers, supersets), saisie rapide des séries, minuteur de repos en grand dans les notifications, avec ses boutons.
 - 931 exercices en français et en anglais, ou les tiens, avec ta photo.
 - Stats : progression semaine après semaine, 1RM estimé, records, poids du corps, et un bilan chaque mois.
-- Niveaux et rangs, quêtes, boss et hauts faits : chaque série rapporte de l'XP.
+- Niveaux et 20 rangs (de E- à S+, puis Nation et Monarque), quêtes, boss et hauts faits, avec une fenêtre « Système » façon Solo Leveling en fin de séance : chaque série rapporte de l'XP.
 - Cartes d'amis : partage tes performances et ton programme, compare-toi, sans compte ni serveur.
 - Sauvegarde automatique, import depuis Hevy, export CSV et Obsidian. Thème clair ou sombre.
 
 ### Installer
 
-1. Sur ton téléphone Android (8.0 ou plus récent), ouvre la page de la [dernière version](https://github.com/Fram-sudo/fonte-releases/releases/latest).
-2. Dans **Assets**, touche le fichier `Fonte-1.0.X.apk` pour le télécharger, puis ouvre-le.
+1. Sur ton téléphone Android (8.0 ou plus récent), touche [Fonte.apk](https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk) (toujours la dernière version, aussi sur le [site](https://fram-sudo.github.io/fonte-releases/)).
+2. Ouvre le fichier téléchargé.
 3. Android demande d'autoriser ton navigateur (ou ton gestionnaire de fichiers) à installer des applications inconnues : active l'autorisation, reviens en arrière, puis touche **Installer**.
 4. Si Google Play Protect affiche un avertissement, choisis **Installer quand même** (parfois après **Plus de détails**). C'est normal pour une application qui n'est pas sur le Play Store.
 
@@ -59,7 +63,7 @@ Fonte ne collecte rien et n'envoie rien : pas de compte, pas de serveur, pas de 
 
 ### iPhone
 
-Fonte existe aussi en **web app** pour iPhone : même DA, mêmes écrans, et tes données restent dans le téléphone (pas de compte, pas de serveur). Adresse : **https://fram-sudo.github.io/fonte-releases/**
+Fonte existe aussi en **web app** pour iPhone : même DA, mêmes écrans, et tes données restent dans le téléphone (pas de compte, pas de serveur). Adresse : **https://fram-sudo.github.io/fonte-releases/app/** (ou le [site](https://fram-sudo.github.io/fonte-releases/), qui y mène)
 
 **Installer** (iPhone avec iOS 16.4 ou plus récent) :
 
@@ -110,17 +114,17 @@ https://github.com/user-attachments/assets/15d94cd5-b75b-4f93-9420-5d8db5de2cb3
 
 ### What Fonte does
 
-- Workouts and routines (folders, supersets), quick set logging, a rest timer that keeps running in your notifications.
+- Workouts and routines (folders, supersets), quick set logging, a big rest timer in your notifications, with its buttons.
 - 931 exercises in English and French, or your own, with your photo.
 - Stats: week-by-week progress, estimated 1RM, records, body weight, and a report every month.
-- Levels and ranks, quests, bosses and achievements: every set earns XP.
+- Levels and 20 ranks (from E- to S+, then National and Monarch), quests, bosses and achievements, with a Solo Leveling style "System" window after each workout: every set earns XP.
 - Friend cards: share your performance and your program, compare yourself, no account and no server.
 - Automatic backup, Hevy import, CSV and Obsidian export. Light or dark theme.
 
 ### Install
 
-1. On your Android phone (8.0 or newer), open the [latest version](https://github.com/Fram-sudo/fonte-releases/releases/latest) page.
-2. Under **Assets**, tap `Fonte-1.0.X.apk` to download it, then open it.
+1. On your Android phone (8.0 or newer), tap [Fonte.apk](https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk) (always the latest version, also on the [website](https://fram-sudo.github.io/fonte-releases/)).
+2. Open the downloaded file.
 3. Android asks you to allow your browser (or file manager) to install unknown apps: turn it on, go back, then tap **Install**.
 4. If Google Play Protect shows a warning, choose **Install anyway** (sometimes after **More details**). This is normal for an app that is not on the Play Store.
 
@@ -142,7 +146,7 @@ Fonte collects nothing and sends nothing: no account, no server, no ads, no trac
 
 ### iPhone
 
-Fonte also exists as a **web app** for iPhone: same look, same screens, and your data stays on your phone (no account, no server). Address: **https://fram-sudo.github.io/fonte-releases/**
+Fonte also exists as a **web app** for iPhone: same look, same screens, and your data stays on your phone (no account, no server). Address: **https://fram-sudo.github.io/fonte-releases/app/** (or the [website](https://fram-sudo.github.io/fonte-releases/), which leads there)
 
 **Install** (iPhone with iOS 16.4 or newer):
 
