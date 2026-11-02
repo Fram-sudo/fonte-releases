@@ -21,13 +21,11 @@ Ce dépôt sert uniquement à télécharger l'application : chaque version de Fo
 
 ### En vidéo
 
-**Bande-annonce** (37 s)
+<a href="https://fram-sudo.github.io/fonte-releases/videos/nouveautes-fr.mp4"><img src="videos/nouveautes-fr.jpg" width="200" alt="Nouveautés 1.0.22"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-fr.mp4"><img src="videos/iphone-fr.jpg" width="200" alt="Installer sur iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-fr.mp4"><img src="videos/presentation-fr.jpg" width="200" alt="Présentation complète"></a>
 
-https://github.com/user-attachments/assets/4ce30139-c778-41d4-b238-d02ff68e57fe
+**Nouveautés 1.0.22** (24 s) · **Installer sur iPhone** (1 min 12) · **Présentation complète** (1 min 30)
 
-**Présentation complète** (1 min 29)
-
-https://github.com/user-attachments/assets/2ce205f0-ce30-40e0-8aca-b01c09c481b3
+Touche une image pour lancer la vidéo (elles sont aussi sur [le site](https://fram-sudo.github.io/fonte-releases/)).
 
 ### Ce que fait Fonte
 
@@ -104,13 +102,11 @@ This repository is only for downloading the app: every Fonte version is publishe
 
 ### Watch
 
-**Trailer** (37 s)
+<a href="https://fram-sudo.github.io/fonte-releases/videos/whats-new-en.mp4"><img src="videos/whats-new-en.jpg" width="200" alt="What's new in 1.0.22"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-en.mp4"><img src="videos/iphone-en.jpg" width="200" alt="Install on iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-en.mp4"><img src="videos/presentation-en.jpg" width="200" alt="Full walkthrough"></a>
 
-https://github.com/user-attachments/assets/e3c287ea-5432-4901-a3e6-24cbe677bf81
+**What's new in 1.0.22** (24 s) · **Install on iPhone** (1 min 12) · **Full walkthrough** (1 min 30)
 
-**Full walkthrough** (1 min 29)
-
-https://github.com/user-attachments/assets/15d94cd5-b75b-4f93-9420-5d8db5de2cb3
+Tap an image to play the video (also on [the website](https://fram-sudo.github.io/fonte-releases/en/)).
 
 ### What Fonte does
 
