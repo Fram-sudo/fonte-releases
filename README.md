@@ -21,9 +21,9 @@ Ce dépôt sert uniquement à télécharger l'application : chaque version de Fo
 
 ### En vidéo
 
-<a href="https://fram-sudo.github.io/fonte-releases/videos/nouveautes-fr.mp4"><img src="videos/nouveautes-fr.jpg" width="200" alt="Nouveautés 1.0.25"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-fr.mp4"><img src="videos/iphone-fr.jpg" width="200" alt="Installer sur iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-fr.mp4"><img src="videos/presentation-fr.jpg" width="200" alt="Présentation complète"></a>
+<a href="https://fram-sudo.github.io/fonte-releases/videos/nouveautes-fr.mp4"><img src="videos/nouveautes-fr.jpg" width="200" alt="Nouveautés 1.0.25 et 1.0.26"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-fr.mp4"><img src="videos/iphone-fr.jpg" width="200" alt="Installer sur iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-fr.mp4"><img src="videos/presentation-fr.jpg" width="200" alt="Présentation complète"></a>
 
-**Nouveautés 1.0.25** (32 s) · **Installer sur iPhone** (1 min 12) · **Présentation complète** (1 min 30)
+**Nouveautés 1.0.25 et 1.0.26** (32 s) · **Installer sur iPhone** (1 min 12) · **Présentation complète** (1 min 30)
 
 Touche une image pour lancer la vidéo (elles sont aussi sur [le site](https://fram-sudo.github.io/fonte-releases/)).
 
@@ -103,9 +103,9 @@ This repository is only for downloading the app: every Fonte version is publishe
 
 ### Watch
 
-<a href="https://fram-sudo.github.io/fonte-releases/videos/whats-new-en.mp4"><img src="videos/whats-new-en.jpg" width="200" alt="What's new in 1.0.25"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-en.mp4"><img src="videos/iphone-en.jpg" width="200" alt="Install on iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-en.mp4"><img src="videos/presentation-en.jpg" width="200" alt="Full walkthrough"></a>
+<a href="https://fram-sudo.github.io/fonte-releases/videos/whats-new-en.mp4"><img src="videos/whats-new-en.jpg" width="200" alt="What's new in 1.0.25 and 1.0.26"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-en.mp4"><img src="videos/iphone-en.jpg" width="200" alt="Install on iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-en.mp4"><img src="videos/presentation-en.jpg" width="200" alt="Full walkthrough"></a>
 
-**What's new in 1.0.25** (32 s) · **Install on iPhone** (1 min 12) · **Full walkthrough** (1 min 30)
+**What's new in 1.0.25 and 1.0.26** (32 s) · **Install on iPhone** (1 min 12) · **Full walkthrough** (1 min 30)
 
 Tap an image to play the video (also on [the website](https://fram-sudo.github.io/fonte-releases/en/)).
 
