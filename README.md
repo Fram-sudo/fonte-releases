@@ -21,9 +21,9 @@ Ce dépôt sert uniquement à télécharger l'application : chaque version de Fo
 
 ### En vidéo
 
-<a href="https://fram-sudo.github.io/fonte-releases/videos/nouveautes-fr.mp4"><img src="videos/nouveautes-fr.jpg" width="200" alt="Nouveautés 1.0.22"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-fr.mp4"><img src="videos/iphone-fr.jpg" width="200" alt="Installer sur iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-fr.mp4"><img src="videos/presentation-fr.jpg" width="200" alt="Présentation complète"></a>
+<a href="https://fram-sudo.github.io/fonte-releases/videos/nouveautes-fr.mp4"><img src="videos/nouveautes-fr.jpg" width="200" alt="Nouveautés 1.0.23"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-fr.mp4"><img src="videos/iphone-fr.jpg" width="200" alt="Installer sur iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-fr.mp4"><img src="videos/presentation-fr.jpg" width="200" alt="Présentation complète"></a>
 
-**Nouveautés 1.0.22** (24 s) · **Installer sur iPhone** (1 min 12) · **Présentation complète** (1 min 30)
+**Nouveautés 1.0.23** (32 s) · **Installer sur iPhone** (1 min 12) · **Présentation complète** (1 min 30)
 
 Touche une image pour lancer la vidéo (elles sont aussi sur [le site](https://fram-sudo.github.io/fonte-releases/)).
 
@@ -31,10 +31,11 @@ Touche une image pour lancer la vidéo (elles sont aussi sur [le site](https://f
 
 - Séances et routines (dossiers, supersets), saisie rapide des séries, minuteur de repos en grand dans les notifications, avec ses boutons.
 - 931 exercices en français et en anglais, ou les tiens, avec ta photo.
-- Stats : progression semaine après semaine, 1RM estimé, records, poids du corps, et un bilan chaque mois.
+- Stats : progression semaine après semaine, 1RM estimé, records, charge suivante suggérée, poids du corps, et un bilan chaque mois.
 - Niveaux et 20 rangs (de E- à S+, puis Nation et Monarque), quêtes, boss et hauts faits, avec une fenêtre « Système » façon Solo Leveling en fin de séance : chaque série rapporte de l'XP.
-- Cartes d'amis : partage tes performances et ton programme, compare-toi, sans compte ni serveur.
-- Sauvegarde automatique, import depuis Hevy, export CSV et Obsidian. Thème clair ou sombre.
+- Cartes d'amis : partage tes performances et ton programme, compare-toi, lance des défis, sans compte ni serveur.
+- Widgets pour l'écran d'accueil (semaine, rang, objectif, boss, séance en cours), rappel d'entraînement et raccourcis.
+- Sauvegarde automatique, import depuis Hevy, export CSV et Obsidian. Thème clair ou sombre, à tes couleurs.
 
 ### Installer
 
@@ -45,7 +46,7 @@ Touche une image pour lancer la vidéo (elles sont aussi sur [le site](https://f
 
 ### Mettre à jour
 
-Fonte vérifie elle-même s'il existe une nouvelle version (à l'ouverture, au plus une fois par jour, avec internet) et te la propose, avec ses nouveautés : touche **Mettre à jour**, l'app la télécharge puis Android demande de confirmer l'installation. La première fois, Android demande aussi d'autoriser Fonte à installer des applications. Tes séances, routines et réglages sont conservés.
+Fonte vérifie elle-même s'il existe une nouvelle version (à l'ouverture et quand la connexion revient) et te la propose, avec ses nouveautés : touche **Mettre à jour**, l'app la télécharge puis Android demande de confirmer l'installation. La première fois, Android demande aussi d'autoriser Fonte à installer des applications. Tes séances, routines et réglages sont conservés.
 
 Tu peux aussi vérifier à la main (Réglages > À propos > Mises à jour), désactiver la vérification automatique, ou télécharger la nouvelle version ici et l'installer par-dessus l'ancienne. Ne désinstalle pas l'application avant, cela effacerait tes données (sauf si tu as une sauvegarde automatique, dans Réglages > Données).
 
@@ -102,9 +103,9 @@ This repository is only for downloading the app: every Fonte version is publishe
 
 ### Watch
 
-<a href="https://fram-sudo.github.io/fonte-releases/videos/whats-new-en.mp4"><img src="videos/whats-new-en.jpg" width="200" alt="What's new in 1.0.22"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-en.mp4"><img src="videos/iphone-en.jpg" width="200" alt="Install on iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-en.mp4"><img src="videos/presentation-en.jpg" width="200" alt="Full walkthrough"></a>
+<a href="https://fram-sudo.github.io/fonte-releases/videos/whats-new-en.mp4"><img src="videos/whats-new-en.jpg" width="200" alt="What's new in 1.0.23"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/iphone-en.mp4"><img src="videos/iphone-en.jpg" width="200" alt="Install on iPhone"></a> <a href="https://fram-sudo.github.io/fonte-releases/videos/presentation-en.mp4"><img src="videos/presentation-en.jpg" width="200" alt="Full walkthrough"></a>
 
-**What's new in 1.0.22** (24 s) · **Install on iPhone** (1 min 12) · **Full walkthrough** (1 min 30)
+**What's new in 1.0.23** (32 s) · **Install on iPhone** (1 min 12) · **Full walkthrough** (1 min 30)
 
 Tap an image to play the video (also on [the website](https://fram-sudo.github.io/fonte-releases/en/)).
 
@@ -112,10 +113,11 @@ Tap an image to play the video (also on [the website](https://fram-sudo.github.i
 
 - Workouts and routines (folders, supersets), quick set logging, a big rest timer in your notifications, with its buttons.
 - 931 exercises in English and French, or your own, with your photo.
-- Stats: week-by-week progress, estimated 1RM, records, body weight, and a report every month.
+- Stats: week-by-week progress, estimated 1RM, records, suggested next weight, body weight, and a report every month.
 - Levels and 20 ranks (from E- to S+, then National and Monarch), quests, bosses and achievements, with a Solo Leveling style "System" window after each workout: every set earns XP.
-- Friend cards: share your performance and your program, compare yourself, no account and no server.
-- Automatic backup, Hevy import, CSV and Obsidian export. Light or dark theme.
+- Friend cards: share your performance and your program, compare yourself, start challenges, no account and no server.
+- Home Screen widgets (week, rank, goal, boss, current workout), workout reminder and shortcuts.
+- Automatic backup, Hevy import, CSV and Obsidian export. Light or dark theme, in your colors.
 
 ### Install
 
@@ -126,7 +128,7 @@ Tap an image to play the video (also on [the website](https://fram-sudo.github.i
 
 ### Update
 
-Fonte checks for a new version by itself (when it opens, at most once a day, when online) and offers it to you with what's new: tap **Update**, the app downloads it, then Android asks you to confirm the install. The first time, Android also asks you to allow Fonte to install apps. Your workouts, routines and settings are kept.
+Fonte checks for a new version by itself (when it opens and when you are back online) and offers it to you with what's new: tap **Update**, the app downloads it, then Android asks you to confirm the install. The first time, Android also asks you to allow Fonte to install apps. Your workouts, routines and settings are kept.
 
 You can also check by hand (Settings > About > Updates), turn off the automatic check, or download the new version here and install it over the old one. Do not uninstall the app first, that would erase your data (unless you have an automatic backup, in Settings > Data).
 
