@@ -1,0 +1,168 @@
+{
+  "versionCode": 27,
+  "versionName": "1.0.27",
+  "notes": {
+    "fr": [
+      "Photo de profil : elle part avec ta carte, tes amis la voient. Boss : un crâne à côté de l'exercice visé, et la carte du boss dit quelle série le bat.",
+      "Mensurations libres (biceps, poitrine, taille, cuisse... tu choisis) et exercices au poids du corps plus clairs : type modifiable, exemples, minuteur pour la planche.",
+      "Notification de repos plus lisible, tutoriel mis à jour, et une petite surprise le 1er janvier."
+    ],
+    "en": [
+      "Profile photo: it goes with your card, your friends see it. Bosses: a skull next to the target exercise, and the boss card tells you which set beats it.",
+      "Your own measurements (biceps, chest, waist, thigh... you choose) and clearer bodyweight exercises: changeable input type, examples, a timer for planks.",
+      "Clearer rest notification, updated tutorial, and a little surprise on January 1."
+    ]
+  },
+  "history": [
+    {
+      "versionCode": 27,
+      "versionName": "1.0.27",
+      "notes": {
+        "fr": [
+          "Photo de profil : elle part avec ta carte, tes amis la voient. Boss : un crâne à côté de l'exercice visé, et la carte du boss dit quelle série le bat.",
+          "Mensurations libres (biceps, poitrine, taille, cuisse... tu choisis) et exercices au poids du corps plus clairs : type modifiable, exemples, minuteur pour la planche.",
+          "Notification de repos plus lisible, tutoriel mis à jour, et une petite surprise le 1er janvier."
+        ],
+        "en": [
+          "Profile photo: it goes with your card, your friends see it. Bosses: a skull next to the target exercise, and the boss card tells you which set beats it.",
+          "Your own measurements (biceps, chest, waist, thigh... you choose) and clearer bodyweight exercises: changeable input type, examples, a timer for planks.",
+          "Clearer rest notification, updated tutorial, and a little surprise on January 1."
+        ]
+      }
+    },
+    {
+      "versionCode": 26,
+      "versionName": "1.0.26",
+      "notes": {
+        "fr": [
+          "Boss d'hiver plus clairs : le poids affiché (par exemple « Développé épaule 25 kg ») était un 1RM estimé, ce que tu pourrais soulever une seule fois, pas la charge à prendre. Beaucoup l'ont lu comme une charge et le boss paraissait impossible.",
+          "La carte du boss montre maintenant les séries qui le battent, avec tes charges. Exemple : tu travailles à 14 kg ? « Une série suffit : 14 kg × 24 · 16 kg × 17 ».",
+          "Chaque série qui s'en approche fait toujours baisser sa barre de vie, et la première qui y arrive le bat."
+        ],
+        "en": [
+          "Clearer winter bosses: the weight shown (for example \"Shoulder press 25 kg\") was an estimated 1RM, what you could lift just once, not the load to use. Many read it as a load and the boss looked impossible.",
+          "The boss card now shows the sets that beat it, with your own weights. Example: you train with 14 kg? \"One set is enough: 14 kg × 24 · 16 kg × 17\".",
+          "Every set that gets close still brings its health bar down, and the first one that gets there defeats it."
+        ]
+      }
+    },
+    {
+      "versionCode": 25,
+      "versionName": "1.0.25",
+      "notes": {
+        "fr": [
+          "Saison d'hiver jusqu'au 28 février : le Winter Arc en 8 étapes, 2 défis d'hiver par semaine et 3 boss d'hiver à ta mesure (Yéti, Blizzard, Roi de l'hiver). Au bout : le titre « Forgé par l'hiver » et son emblème givré, gardés pour toujours.",
+          "Défi d'hiver entre amis (le plus de séances du mois) et réglage « Effets de saison » dans Réglages > Apparence.",
+          "Et le 1er décembre, quelque chose arrive… Garde l'app à jour."
+        ],
+        "en": [
+          "Winter season until February 28: an 8-step Winter Arc, 2 winter challenges a week and 3 winter bosses sized to you (Yeti, Blizzard, Winter King). At the end: the \"Forged by winter\" title and its frosted emblem, yours forever.",
+          "Winter challenge with friends (most workouts this month) and a \"Seasonal effects\" setting in Settings > Appearance.",
+          "And on December 1, something is coming… Keep the app up to date."
+        ]
+      }
+    },
+    {
+      "versionCode": 23,
+      "versionName": "1.0.23",
+      "notes": {
+        "fr": [
+          "Fonte à tes couleurs (10 prêtes ou la tienne, fond noir pur ou chaud), progression suggérée (« ↑ 82,5 kg ») et image de fin de séance à partager.",
+          "Défis entre amis : séances, volume, séries ou XP, sur une semaine ou un mois, classés avec les cartes reçues.",
+          "Android : nouveaux widgets réglables (semaine compacte, rang 1 x 1 et 2 x 1, objectif, boss, séance en cours), rappel d'entraînement et raccourcis sur l'icône."
+        ],
+        "en": [
+          "Fonte in your colors (10 presets or your own, pure black or warm background), suggested progression (\"↑ 82.5 kg\") and a shareable end-of-workout image.",
+          "Challenges with friends: workouts, volume, sets or XP, over a week or a month, ranked with the cards you receive.",
+          "Android: new widgets with settings (compact week, 1 x 1 and 2 x 1 rank, goal, boss, current workout), workout reminder and app icon shortcuts."
+        ]
+      }
+    },
+    {
+      "versionCode": 22,
+      "versionName": "1.0.22",
+      "notes": {
+        "fr": [
+          "Android : deux widgets pour l'écran d'accueil, « Cette semaine » (avec un bouton pour lancer ta prochaine routine) et « Rang ».",
+          "Les mises à jour sont vérifiées à chaque ouverture de l'app et dès que la connexion revient.",
+          "Un rappel discret sur l'Accueil quand tes séances ne sont pas sauvegardées (jamais si la sauvegarde automatique marche)."
+        ],
+        "en": [
+          "Android: two Home Screen widgets, \"This week\" (with a button to start your next routine) and \"Rank\".",
+          "Updates are checked each time you open the app and as soon as you are back online.",
+          "A gentle reminder on Home when your workouts are not backed up (never if automatic backup is working)."
+        ]
+      }
+    },
+    {
+      "versionCode": 20,
+      "versionName": "1.0.20",
+      "notes": {
+        "fr": [
+          "Les 20 emblèmes de rang sont les vrais dessins de Bamana : nets à toutes les tailles, lettres bien centrées.",
+          "Montée de rang plus accessible : Monarque en 3 ans environ à 4 séances par semaine, au lieu de 16. Ton rang est recalculé à l'ouverture.",
+          "Barre d'onglets plus grande : elle prend toute la largeur, avec des icônes plus grandes."
+        ],
+        "en": [
+          "The 20 rank emblems are Bamana's real drawings: sharp at any size, letters properly centered.",
+          "More accessible rank progression: Monarch in about 3 years at 4 workouts a week, instead of 16. Your rank is recalculated when you open the app.",
+          "Bigger tab bar: full width, with larger icons."
+        ]
+      }
+    },
+    {
+      "versionCode": 19,
+      "versionName": "1.0.19",
+      "notes": {
+        "fr": [
+          "Nouveau design de toute l'app, dessiné par Bamana, sur Android et sur iPhone : couleurs, polices, grands titres, barre d'onglets flottante, filtres en panneaux.",
+          "La liste s'efface en fondu avant la barre d'onglets : plus rien ne passe derrière.",
+          "L'accueil dit « Bonjour » en journée et « Bonsoir » à partir de 18 h, à l'heure de ton téléphone.",
+          "20 rangs au lieu de 8 : chaque lettre en trois sous-rangs (E-, E, E+…), puis Nation et Monarque, avec de nouveaux emblèmes.",
+          "Fenêtre de fin de séance façon Solo Leveling, avec un « ding » à activer dans Réglages > Séance.",
+          "Séance : touche le chrono pour corriger la durée, « Changer de routine » garde le chrono, et la miniature d'un exercice montre ses images et sa technique.",
+          "Exercices, routines et dossiers se rangent en les faisant glisser.",
+          "Android : le minuteur de repos s'affiche en grand dans la notification, avec des boutons orange.",
+          "Nouveau site, en français et en anglais : fram-sudo.github.io/fonte-releases. Sur iPhone, la web app passe toute seule à sa nouvelle adresse, sans rien perdre.",
+          "Bilan du mois en cours : la série de semaines est juste."
+        ],
+        "en": [
+          "New design for the whole app, drawn by Bamana, on Android and iPhone: colors, fonts, large titles, floating tab bar, filter panels.",
+          "Lists fade out before the tab bar: nothing shows behind it anymore.",
+          "The home greeting follows the time of day on your phone.",
+          "20 ranks instead of 8: each letter in three sub-ranks (E-, E, E+…), then National and Monarch, with new emblems.",
+          "Solo Leveling style end-of-workout window, with a \"ding\" you can turn on in Settings > Workout.",
+          "Workout: tap the timer to fix the duration, \"Change routine\" keeps the timer, and an exercise thumbnail shows its images and technique.",
+          "Exercises, routines and folders can be reordered by dragging them.",
+          "Android: the rest timer shows big in the notification, with orange buttons.",
+          "New website, in English and French: fram-sudo.github.io/fonte-releases/en/. On iPhone, the web app moves to its new address by itself, without losing anything.",
+          "Current month report: the week streak is right."
+        ]
+      }
+    },
+    {
+      "versionCode": 16,
+      "versionName": "1.0.16",
+      "notes": {
+        "fr": [
+          "Fonte arrive sur iPhone : une web app à installer depuis Safari, avec la même DA. Lien sur la page de téléchargement.",
+          "Tes sauvegardes passent d'Android à iPhone et inversement.",
+          "Fiche d'exercice : le titre de chaque mois s'affiche correctement dans l'historique.",
+          "Android : pendant une séance, la durée et le minuteur restent visibles app fermée (barre d'état, écran verrouillé), et le son de fin de repos passe dans les écouteurs même app fermée.",
+          "Android : la liste des exercices s'affiche du premier coup quand tu en ajoutes à une routine ou à une séance.",
+          "Filtre Muscle rangé par groupe, avec les muscles précis visibles directement.",
+          "Android : nouvelle fenêtre de fin de séance, comme dans la pub, avec ses animations."
+        ],
+        "en": [
+          "Fonte comes to iPhone: a web app to install from Safari, with the same look. Link on the download page.",
+          "Your backups move from Android to iPhone and back.",
+          "Exercise page: each month title now shows correctly in the history.",
+          "Android: during a workout, the duration and the timer stay visible with the app closed (status bar, lock screen), and the rest sound plays in your earphones even with the app closed.",
+          "Android: the exercise list shows up the first time when you add exercises to a routine or a workout.",
+          "Muscle filter grouped by body part, with specific muscles shown right away.",
+          "Android: new end-of-workout window, like in the promo video, with its animations."
+        ]
+      }
+    }
+  ]
+}

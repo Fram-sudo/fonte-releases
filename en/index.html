@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <script>
+    // Icône « Fonte » déjà installée depuis l'ancienne adresse (avant la version 1.0.18, la web app était ici) :
+    // en mode installé, on va directement dans la web app (mêmes données, même origine).
+    if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true) {
+      location.replace('../app/' + location.search);
+    }
+  </script>
+  <title>Fonte · free workout tracker, no account, offline</title>
+  <meta name="description" content="Fonte: the free workout tracker with no account, no ads, that works offline. Workouts, routines, records, stats, Solo Leveling style levels and ranks, Hevy import. Android and iPhone." />
+  <link rel="canonical" href="https://fram-sudo.github.io/fonte-releases/en/" />
+  <link rel="alternate" hreflang="fr" href="https://fram-sudo.github.io/fonte-releases/" />
+  <link rel="alternate" hreflang="en" href="https://fram-sudo.github.io/fonte-releases/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://fram-sudo.github.io/fonte-releases/" />
+  <meta name="theme-color" content="#121315" media="(prefers-color-scheme: dark)" />
+  <meta name="theme-color" content="#F3F2EF" media="(prefers-color-scheme: light)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Fonte" />
+  <meta property="og:title" content="Fonte · your workout tracker" />
+  <meta property="og:description" content="Free, no account, no ads, offline. Android and iPhone." />
+  <meta property="og:url" content="https://fram-sudo.github.io/fonte-releases/en/" />
+  <meta property="og:image" content="https://fram-sudo.github.io/fonte-releases/img/og-en.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://fram-sudo.github.io/fonte-releases/img/og-en.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="../app/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../app/icons/apple-touch-icon.png" />
+  <link rel="preload" href="../app/fonts/inter_extrabold.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="../site.css" />
+</head>
+<body>
+  <div class="lang-banner wrap" id="lang-banner" data-for="fr" hidden><a href="../" hreflang="fr" lang="fr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 0 1 5.08 16zm2.95-8H5.08a7.987 7.987 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span>Lire cette page en français</span></a><button type="button" id="lang-banner-close" aria-label="Fermer">×</button></div>
+  <header class="top wrap">
+    <div class="brand">
+      <img src="../app/icons/icon-192.png" alt="" width="56" height="56" />
+      <span>Fonte</span>
+    </div>
+    <a class="lang-switch" href="../" hreflang="fr" lang="fr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 0 1 5.08 16zm2.95-8H5.08a7.987 7.987 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span>Français</span></a>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      
+      <h1>Your workout tracker, <em>no subscription</em>.</h1>
+      
+      <p class="lead">Free, no account, no ads, and everything works offline. Workouts, routines, records, stats, and a Solo Leveling style level and rank system.</p>
+    </section>
+
+    <section class="get" id="telecharger">
+      <article class="card platform android">
+        <div class="platform-head">
+          <span class="tag">Android</span>
+          
+          <span class="small">Android 8 or newer</span>
+        </div>
+        <a class="cta" href="https://github.com/Fram-sudo/fonte-releases/releases/latest/download/Fonte.apk">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20h14v-2H5v2zm14-9h-4V3H9v8H5l7 7 7-7z"/></svg>
+          <span>Download Fonte</span>
+        </a>
+        
+        <ol class="steps">
+          <li>Open the downloaded <b>Fonte.apk</b> file.</li>
+          <li>Allow the install if Android asks.</li>
+          <li>If Play Protect shows up: <b>More details</b>, then <b>Install anyway</b>. Fonte is not on the Play Store, this is expected.</li>
+        </ol>
+        
+        <p class="small">Updates then arrive right inside the app. Home Screen widgets with settings: week, rank, goal, boss and current workout.</p>
+      </article>
+
+      <article class="card platform iphone">
+        <div class="platform-head">
+          <span class="tag">iPhone</span>
+          
+          <span class="small">iOS 16.4 or newer, with Safari</span>
+        </div>
+        <a class="cta" href="../app/">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+          <span>Open the web app</span>
+        </a>
+        
+        <ol class="steps">
+          <li>Open the web app in <b>Safari</b>.</li>
+          <li>Tap <b>Share</b> (the square with an arrow).</li>
+          <li>Choose <b>Add to Home Screen</b>, then open Fonte from its icon.</li>
+        </ol>
+        
+        <p class="small">Your data stays on your phone. A backup moves from Android to iPhone and back. No widget on iPhone: only App Store apps can have one.</p>
+      </article>
+
+      <article class="card qr">
+        <img src="../img/qr.svg" alt="QR code to this page" width="148" height="148" />
+        <div>
+          
+          <p class="qr-title">On your phone</p>
+          
+          <p class="small">Scan this code with the camera: the page offers the right version.</p>
+        </div>
+      </article>
+
+      <p class="other small">
+        
+        <a href="#" data-show="all">See the other version too</a>
+      </p>
+    </section>
+
+    <section class="news" id="whats-new">
+      <h2>What's new</h2>
+      <p class="small news-sub">Update of November 4, 2026 · Android and iPhone</p>
+      <p class="news-group">1.0.27 · photo, skull and measurements</p>
+      <div class="news-grid">
+        <article class="card news-item has-img"><img src="../img/nouveautes/v27-photo-en.webp" alt="Hunter profile with the profile photo" width="300" height="650" loading="lazy" /><div><h3>Your photo on your card</h3><p>In the hunter profile or in Friends, tap the circle to <b>choose a photo</b> and crop it. It goes with your card: your friends see it in their list, on your profile and in challenge rankings. Cards from earlier versions still open.</p></div></article>
+        <article class="card news-item has-img"><img src="../img/nouveautes/v27-boss-en.webp" alt="Workout with the skull next to a boss exercise" width="300" height="650" loading="lazy" /><div><h3>A skull for your bosses</h3><p>When you have a boss on an exercise, <b>a skull</b> shows next to its name: in workouts, routines, the exercise list and history. The boss card tells you which <b>set beats it</b>, with your weights.</p></div></article>
+        <article class="card news-item has-img"><img src="../img/nouveautes/v27-body-en.webp" alt="Weight and custom measurements" width="300" height="650" loading="lazy" /><div><h3>Your measurements, not ours</h3><p>Create the measurements you want to track: biceps, chest, waist, thigh, calf, or any name. Each one has its chart and history. Your old entries (shoulders, arm, waist) are kept.</p></div></article>
+        <article class="card news-item"><div><h3>Bodyweight and duration</h3><p>Each input type has an example (&quot;Duration: plank, side plank, wall sit&quot;), and you can <b>change the type</b> of any exercise from its page. For planks, a <b>timer</b> counts the set and checks it off at the end.</p></div></article>
+        <article class="card news-item"><div><h3>A clearer rest timer</h3><p>On Android, the notification shows the set first, then the exercise name on two lines: nothing gets cut off anymore. On iPhone, a note explains why to <b>keep Fonte on screen</b> during rest: iOS mutes the end sound when you switch apps. Once read, it doesn't come back.</p></div></article>
+        <article class="card news-item"><div><h3>And on January 1…</h3><p>A little surprise is waiting when you open Fonte. This version is enough.</p></div></article>
+      </div>
+      <p class="news-group">1.0.26 · fix for 1.0.25</p>
+      <div class="news-grid">
+        <article class="card news-item has-img"><img src="../img/nouveautes/winter-boss-en.webp" alt="Current winter boss: the sets that beat it under its health bar" width="300" height="650" loading="lazy" /><div><h3>Clearer winter bosses</h3><p>The weight shown on a winter boss was an <b>estimated 1RM</b> (what you could lift just once), not the load to use. Many read it as a load. The boss card now shows <b>the sets that beat it, with your own weights</b>: if you train with 14 kg against a &quot;Shoulder press 25 kg&quot; boss, it suggests 14 kg × 24 or 16 kg × 17. Every set that gets close brings its health bar down.</p></div></article>
+      </div>
+      <p class="news-group">1.0.25 · winter season</p>
+      <div class="news-grid">
+        <article class="card news-item has-img"><img src="../img/nouveautes/winter-home-en.webp" alt="Winter Arc card on the Home screen" width="300" height="650" loading="lazy" /><div><h3>Winter Arc, until February 28</h3><p>The winter season has its own card on the Home screen. There are <b>8 steps</b> to earn, one for each week you reach your workout goal. The season lasts 17 weeks, so you can miss a few.</p></div></article>
+        <article class="card news-item has-img"><img src="../img/nouveautes/winter-arc-en.webp" alt="Winter Arc screen: winter challenges and bosses" width="300" height="650" loading="lazy" /><div><h3>Winter challenges</h3><p>Every week, <b>2 new winter challenges</b>: a weekend workout, 2 records, 10,000 kg lifted, a one-hour workout... Each one gives quest XP.</p></div></article>
+        <article class="card news-item"><div><h3>Three winter bosses</h3><p>They come one after the other: the <b>Yeti</b> right now, the <b>Blizzard</b> on December 1 at the earliest, the <b>Winter King</b> in January at the earliest. Each one targets an estimated 1RM 2.5 to 4% above yours, on an exercise you do often: its card tells you which sets beat it. It gives boss XP.</p></div></article>
+        <article class="card news-item has-img"><img src="../img/nouveautes/winter-forged-en.webp" alt="Winter Arc complete: 8 steps and all three bosses defeated" width="300" height="650" loading="lazy" /><div><h3>Forged by winter</h3><p>All 8 steps and the Winter King defeated before the end of February: you earn the <b>&quot;Forged by winter&quot;</b> title and its frosted emblem, to show on your hunter profile. They stay yours after the season.</p></div></article>
+        <article class="card news-item"><div><h3>Winter challenge with friends</h3><p>A ready-made challenge in the Challenges screen: <b>most workouts this month</b>. Like the other challenges, it goes through your friend cards, with no server and no account.</p></div></article>
+        <article class="card news-item"><div><h3>Seasonal effects</h3><p>A setting in <b>Settings &gt; Appearance</b>, on by default. It only shows from December 1 to January 6, while the snow and the tree are there. Turn it off whenever you like; the Winter Arc and its bosses stay.</p></div></article>
+        <article class="card news-item"><div><h3>And on December 1…</h3><p>Something is coming to Fonte, with nothing more to install: this version is enough. That's all we'll say.</p></div></article>
+      </div>
+    </section>
+
+    <section class="shots" aria-label="Captures">
+      <figure><img src="../img/en/home.webp" alt="Fonte home screen" width="300" height="650" loading="lazy" /><figcaption><span>Home</span></figcaption></figure>
+      <figure><img src="../img/en/history.webp" alt="Workout history" width="300" height="650" loading="lazy" /><figcaption><span>History</span></figcaption></figure>
+      <figure><img src="../img/en/stats.webp" alt="Stats and level" width="300" height="650" loading="lazy" /><figcaption><span>Stats and level</span></figcaption></figure>
+      <figure><img src="../img/en/hunter.webp" alt="Hunter profile and ranks" width="300" height="650" loading="lazy" /><figcaption><span>Ranks</span></figcaption></figure>
+    </section>
+
+    <section class="videos" aria-label="Watch">
+      <h2>Watch</h2>
+      <div class="vids">
+      <figure><video src="../videos/whats-new-en.mp4" poster="../videos/whats-new-en.jpg" controls playsinline preload="none" width="540" height="960"></video><figcaption><span>What's new in 1.0.25 and 1.0.26</span> · 32 s</figcaption></figure>
+      <figure><video src="../videos/iphone-en.mp4" poster="../videos/iphone-en.jpg" controls playsinline preload="none" width="540" height="960"></video><figcaption><span>Install on iPhone</span> · 1 min 12</figcaption></figure>
+      <figure><video src="../videos/presentation-en.mp4" poster="../videos/presentation-en.jpg" controls playsinline preload="none" width="540" height="960"></video><figcaption><span>Full walkthrough</span> · 1 min 30</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="features">
+      
+      <h2>What Fonte does</h2>
+      <div class="grid">
+        <div class="card feat"><h3>Workouts and routines</h3>
+          
+          <p>Folders, supersets, quick set entry, rest timer with sound in your earphones.</p></div>
+        <div class="card feat"><h3>931 exercises</h3>
+          
+          <p>A French and English library with images, muscles and technique, plus your own exercises.</p></div>
+        <div class="card feat"><h3>Progress</h3>
+          
+          <p>Records, estimated 1RM, suggested next weight, charts, body weight and measurements, a report every month.</p></div>
+        <div class="card feat"><h3>Levels and ranks</h3>
+          
+          <p>Every set earns XP: weekly quests, bosses, achievements, from E- up to Monarch.</p></div>
+        <div class="card feat"><h3>Friends</h3>
+          
+          <p>Share your card, compare, start challenges, copy a friend's program. No server, just a file.</p></div>
+        <div class="card feat"><h3>Your data stays yours</h3>
+          
+          <p>No account, no ads, no trackers. Import from Hevy, backups and Obsidian export.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    
+    <p><a href="https://github.com/Fram-sudo/fonte-releases">Videos, every version and questions on GitHub</a></p>
+    
+    <p class="small">Developer: Framana · Interface design: Bamana</p>
+    <p><a class="lang-switch" href="../" hreflang="fr" lang="fr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm6.93 6h-2.95a15.65 15.65 0 0 0-1.38-3.56A8.03 8.03 0 0 1 18.92 8zM12 4.04c.83 1.2 1.48 2.53 1.91 3.96h-3.82c.43-1.43 1.08-2.76 1.91-3.96zM4.26 14C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2 0 .68.06 1.34.14 2H4.26zm.82 2h2.95c.32 1.25.78 2.45 1.38 3.56A7.987 7.987 0 0 1 5.08 16zm2.95-8H5.08a7.987 7.987 0 0 1 4.33-3.56A15.65 15.65 0 0 0 8.03 8zM12 19.96c-.83-1.2-1.48-2.53-1.91-3.96h3.82c-.43 1.43-1.08 2.76-1.91 3.96zM14.34 14H9.66c-.09-.66-.16-1.32-.16-2 0-.68.07-1.35.16-2h4.68c.09.65.16 1.32.16 2 0 .68-.07 1.34-.16 2zm.25 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56zM16.36 14c.08-.66.14-1.32.14-2 0-.68-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2h-3.38z"/></svg><span>Français</span></a></p>
+  </footer>
+
+  <script src="../site.js"></script>
+</body>
+</html>
